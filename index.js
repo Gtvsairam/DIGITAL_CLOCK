@@ -84,7 +84,7 @@ let night = document.getElementById('slepT');
      //comparig the value = hours in 24hr
    else if(demoTwo == realHr){
         document.getElementById("greet1").innerText= "GOOD AFTERNOON !! TAKE SOME SLEEP";
-        document.getElementById("greet_msg").innerText= "GRAB SOME HEALTHY BREAKFAST!!!";
+        document.getElementById("greet_msg").innerText= "LET'S HAVE SOME LUNCH !!";
         document.getElementsByClassName("component")[0].style.backgroundImage= "url('Component_1.png')";
     }
     //comparig the value = hours in 24hr
