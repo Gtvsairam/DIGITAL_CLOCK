@@ -137,16 +137,16 @@ body{
     position: absolute;
     left:760px;
     top: 385px;
-    background-image: url(Component_1.png);
-    background-repeat: no-repeat;
     width: 550px;
-    background-color:#FFFFFF ;
+    /* background-color:#FFFFFF ; */
     border-radius: 10px;
     height: 341px;
     box-shadow: 1px 1px 6px rgb(214, 198, 109) ;
-
-
 }
+#images{
+    width: 550px;
+}
+
 .z1{
     position: absolute;
     top: 40px;

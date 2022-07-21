@@ -75,35 +75,35 @@ let night = document.getElementById('slepT');
     document.getElementById('seconds').innerHTML = sec + "<br>secs";
 
       //if condition for Greet text and images 1
-      //comparig the value = hours in 24hr
+      //comparig the value = hours with 24hr
     if(demoOne == realHr){
         document.getElementById("greet1").innerText= "GOOD MORNING!! WAKE UP !!"
         document.getElementById("greet_msg").innerText= "GRAB SOME HEALTHY BREAKFAST!!!"
-        document.getElementsByClassName("component")[0].style.backgroundImage= "url('Component.jpg')";
+        document.getElementById("images").src= "Component.jpg";
     }
-     //comparig the value = hours in 24hr
+     //comparig the value = hours with 24hr
    else if(demoTwo == realHr){
         document.getElementById("greet1").innerText= "GOOD AFTERNOON !! TAKE SOME SLEEP";
         document.getElementById("greet_msg").innerText= "LET'S HAVE SOME LUNCH !!";
-        document.getElementsByClassName("component")[0].style.backgroundImage= "url('Component_1.png')";
+        document.getElementById("images").src= "component_1.png";
     }
-    //comparig the value = hours in 24hr
+    //comparig the value = hours with 24hr
      else if(demoThree == realHr) {
     
         document.getElementById("greet1").innerText= "GOOD EVENING !!";
-        document.getElementById("greet_msg").innerText= "STOP YAWNING, GET SOME TEA.. ITS JUST EVENING!"
-        document.getElementsByClassName("component")[0].style.backgroundImage= "url('lunch_image.png')";
+        document.getElementById("greet_msg").innerText= "STOP YAWNING, GET SOME TEA.. ITS JUST EVENING!";
+        document.getElementById("images").src= "lunch_image.png";
     }
-    //comparig the value = hours in 24hr
+    //comparig the value = hours with 24hr
     else if(demoFour == realHr){
         document.getElementById("greet1").innerText= "GOOD NIGHT !!";
         document.getElementById("greet_msg").innerText= "CLOSE YOUR EYES AND GO TO SLEEP";
-        document.getElementsByClassName("component")[0].style.backgroundImage= "url('component_2.png')";
+        document.getElementById("images").src= "component_2.png";
     }
     else{
         document.getElementById("greet1").innerText= "I'm Sairam a Frontend developer !!";
-        document.getElementById("greet_msg").innerText= "My Digital Clock Project!!!".font.size =10;
-        document.getElementsByClassName("component")[0].style.backgroundImage= "url('component_1.png')";
+        document.getElementById("greet_msg").innerText= "My Digital Clock Project!!!";
+        document.getElementById("images").src= "Component_1.png";
     }
 };
 setInterval(displayTime,1000);
